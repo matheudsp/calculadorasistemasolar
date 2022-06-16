@@ -4,8 +4,8 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --main-color:#f7e654 ;
-  --main-color-hover: #8c791b;
+  --main-color:#ffc000 ;
+  --main-color-hover: #ab8100;
   --text-color:#020102 ;
   --text-color-secondary: rgba(35, 45, 57);
   --bg-color: #fff ;
@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #b59e29;
   text-decoration: none;
 }
 
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background-position: center;
-  background: url(/src/hero-bg.jpg) center top;
+  background: url(hero-bg.jpg) center top;
   background-size: cover;
   
 }
@@ -336,50 +336,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# graph
 --------------------------------------------------------------*/
-.facts {
+.graph {
   padding-bottom: 30px;
 }
-.facts .count-box {
-  padding: 30px;
-  width: 100%;
-}
-.facts .count-box i {
+img.graph-img {
   display: block;
-  font-size: 44px;
-  color: var(--main-color);
-  float: left;
-  line-height: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
-.facts .count-box span {
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  color: #050d18;
-  margin-left: 60px;
-}
-.facts .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #122f57;
-}
-.facts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #122f57;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-.facts .count-box a:hover {
-  color: #1f5297;
-}
-
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
@@ -651,23 +617,23 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   transition: all .3s;
-  border-color: #f7e654;
-  box-shadow: 0 0 40px 40px #f7e654 inset, 0 0 0 0 #f7e654;
+  border-color: #ffc000;
+  background-color: #ffc000;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
   cursor: pointer;
 }
 
 .botao-calcular > a:hover {
-  box-shadow: 0 0 10px 0 #f7e654 inset, 0 0 10px 4px #f7e654;
+  background-color: #f7e654;
 
 }
 
 
 
 .vlrtotmob {
-    background: #ffdf3fe9;
-    background: linear-gradient(315deg,#f3d540,#f7e654);
+    background: #ffc000;
+    background: linear-gradient(340deg,#fdfbf5,#ffc000);
     border-radius: 0.6rem;
     margin: 0 10px;
     text-align: left;
@@ -676,7 +642,7 @@ section {
 
 
 .vlrtotmob h2, .vlrtotmob h1 {
-  margin-left: 1rem;
+  
   font-weight: 800;
   text-align: justify;
 }
@@ -692,7 +658,17 @@ section {
   
 }
 
-
+@media (max-width: 580px){
+  .vlrtotmob {
+    width: 25%;
+    
+  }
+  .vlrtotmob h2, .vlrtotmob h1 {
+    
+    font-weight: 800;
+    text-align: center;
+  }
+}
 
 
 
@@ -753,9 +729,11 @@ section {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
+  
 }
 .team .team-item .team-img {
-  width: 90px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -805,6 +783,9 @@ section {
   position: absolute;
   bottom: -20px;
   left: calc(50% - 20px);
+}
+.team .team-item a{
+  font-size: 14px;
 }
 .team .swiper-pagination {
   margin-top: 20px;
@@ -1053,5 +1034,11 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+  #logo-solar{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
