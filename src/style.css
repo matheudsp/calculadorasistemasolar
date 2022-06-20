@@ -264,6 +264,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -665,6 +666,7 @@ img.graph-img {
     width: 25%;
     
   }
+  
   .vlrtotmob h2, .vlrtotmob h1 {
     
     font-weight: 800;
@@ -673,7 +675,7 @@ img.graph-img {
 
 }
 
-@media (min-width: 320px){
+@media (max-width: 360px){
   
   #hero h1 {
     font-size: 32px;
@@ -1019,6 +1021,7 @@ img.graph-img {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -1056,4 +1059,6 @@ img.graph-img {
     margin-left: auto;
     margin-right: auto;
   }
+
+  
 }
