@@ -660,15 +660,6 @@ img.graph-img {
 }
 
 @media (max-width: 580px){
-  
-  #hero h1 {
-    font-size: 32px;
-  }
-
-  #hero p {
-    font-size: 17px;
-    
-  }
 
   .vlrtotmob {
     width: 25%;
@@ -682,6 +673,18 @@ img.graph-img {
 
 }
 
+@media (min-width: 320px){
+  
+  #hero h1 {
+    font-size: 32px;
+  }
+
+  #hero p {
+    font-size: 17px;
+    
+  }
+
+}
 
 
 /*--------------------------------------------------------------
