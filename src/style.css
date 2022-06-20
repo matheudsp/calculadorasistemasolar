@@ -205,6 +205,9 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background: url(hero-bg.jpg) center top;
   background-size: cover;
+  background-attachment: fixed;
+
+
   
 }
 
@@ -216,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 #hero .hero-container {
   position: relative;
