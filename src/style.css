@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 :root {
   --main-color:#ffc000 ;
-  --main-color-hover: #ab8100;
+  --main-color-hover: #c56f13;
   --text-color:#020102 ;
   --text-color-secondary: rgba(35, 45, 57);
   --bg-color: #fff ;
@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #b59e29;
+  color: #c56f13;
   text-decoration: none;
 }
 
@@ -618,22 +618,23 @@ img.graph-img {
   text-transform: uppercase;
   transition: all .3s;
   border-color: #ffc000;
-  background-color: #ffc000;
+  background-color: var(--main-color);
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
   cursor: pointer;
 }
 
 .botao-calcular > a:hover {
-  background-color: #f7e654;
+  background-color: var(--main-color-hover);
 
 }
 
 
 
 .vlrtotmob {
-    background: #ffc000;
-    background: linear-gradient(340deg,#fdfbf5,#ffc000);
+    background: var(--main-color);
+    bottom: 0;;
+    background: linear-gradient(340deg,#fdfbf5, var(--main-color));
     border-radius: 0.6rem;
     margin: 0 10px;
     text-align: left;
