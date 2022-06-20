@@ -671,26 +671,22 @@ img.graph-img {
     
   }
 }
-
-@media (min-width: 580px){
-
- 
+@media (max-width: 580px){
   .vlrtotmob {
     width: 25%;
     
   }
-  
   .vlrtotmob h2, .vlrtotmob h1 {
     
     font-weight: 800;
     text-align: center;
   }
-  
   #hero {
     height: 100vh;
   }
-
+  
 }
+
 
 @media (max-width: 480px){
   
