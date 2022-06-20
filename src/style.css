@@ -205,9 +205,6 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background: url(hero-bg.jpg) center top;
   background-size: cover;
-  background-attachment: fixed;
-
-
   
 }
 
@@ -675,17 +672,21 @@ img.graph-img {
     font-weight: 800;
     text-align: center;
   }
+  
+  #hero {
+    height: 100vh;
+  }
 
 }
 
 @media (max-width: 360px){
   
   #hero h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   #hero p {
-    font-size: 17px;
+    font-size: 15px;
     
   }
 
