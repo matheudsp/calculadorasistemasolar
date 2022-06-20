@@ -661,9 +661,20 @@ img.graph-img {
   font-size: 1.5rem;
   
 }
+@media (min-width: 520px){
+  #hero h1 {
+    font-size: 64px;
+  }
 
-@media (max-width: 580px){
+  #hero p {
+    font-size: 28px;
+    
+  }
+}
 
+@media (min-width: 580px){
+
+ 
   .vlrtotmob {
     width: 25%;
     
@@ -681,7 +692,7 @@ img.graph-img {
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 480px){
   
   #hero h1 {
     font-size: 30px;
