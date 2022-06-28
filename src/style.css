@@ -833,18 +833,18 @@ img.graph-img {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Feedback
 --------------------------------------------------------------*/
-.contact {
+.Feedback {
   padding-bottom: 130px;
 }
-.contact .info {
+.Feedback .info {
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
-.contact .info i {
+.Feedback .info i {
   font-size: 20px;
   color: var(--main-color);
   float: left;
@@ -857,26 +857,26 @@ img.graph-img {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-.contact .info h4 {
+.Feedback .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #050d18;
 }
-.contact .info p {
+.Feedback .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
   color: var(--text-color-secondary);
 }
-.contact .info .email p {
+.Feedback .info .email p {
   padding-top: 5px;
 }
-.contact .info .social-links {
+.Feedback .info .social-links {
   padding-left: 60px;
 }
-.contact .info .social-links a {
+.Feedback .info .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #333;
@@ -890,31 +890,31 @@ img.graph-img {
   transition: 0.3s;
   margin-right: 10px;
 }
-.contact .info .social-links a:hover {
+.Feedback .info .social-links a:hover {
   background: var(--main-color);
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.Feedback .info .email:hover i, .Feedback .info .address:hover i, .Feedback .info .phone:hover i {
   background: var(--main-color);
   color: #fff;
 }
-.contact .php-email-form {
+.Feedback .php-email-form {
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
-.contact .php-email-form .form-group {
+.Feedback .php-email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .validate {
+.Feedback .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
-.contact .php-email-form .error-message {
+.Feedback .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -922,10 +922,10 @@ img.graph-img {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.Feedback .php-email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.Feedback .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -933,13 +933,13 @@ img.graph-img {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.Feedback .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.Feedback .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -951,24 +951,24 @@ img.graph-img {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form .form-group {
+.Feedback .php-email-form .form-group {
   margin-bottom: 15px;
 }
-.contact .php-email-form label {
+.Feedback .php-email-form label {
   padding-bottom: 8px;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.Feedback .php-email-form input, .Feedback .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input {
+.Feedback .php-email-form input {
   height: 44px;
 }
-.contact .php-email-form textarea {
+.Feedback .php-email-form textarea {
   padding: 10px 15px;
 }
-.contact .php-email-form button[type=submit] {
+.Feedback .php-email-form button[type=submit] {
   background: var(--main-color);
   border: 0;
   padding: 10px 24px;
@@ -976,7 +976,7 @@ img.graph-img {
   transition: 0.4s;
   border-radius: 4px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.Feedback .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
 @-webkit-keyframes animate-loading {
